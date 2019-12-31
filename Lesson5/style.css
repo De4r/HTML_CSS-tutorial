@@ -1,0 +1,53 @@
+p.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
+
+p.success.feedback {
+    border: 1px dashed green;
+}
+
+div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+
+}
+div .error{
+    color: purple;
+}
+a[href*="google"]{
+    background-color: lightpink;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+a[href$="book.com"]{
+    background-color: saddlebrown;
+    color: white;
+    text-decoration: underline;
+    border: 2px solid blueviolet;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+div {
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+
+}
+div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+p {
+    color: orange;
+}
